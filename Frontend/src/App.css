@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+a{
+  color: black;
+ text-decoration: none;
+}
+.active{
+  text-decoration: underline;
+}
+.gothic-a1-regular {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navhead{
+  width: 98%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(155, 140, 140);
+  background-color: rgb(245, 244, 242);
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.subdiv1{
+  display: flex;
+}
+.subdiv2{
+  width: 700px;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+.subdiv3{
+  display: flex;
+  width: 200px;
+  align-self: center;
+ justify-content: space-around;
+}
+.cont{
+  margin-top: 65px;
+  z-index: -1;
+}
+.cont2{
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.cont2 div{
+  width: 500px;
+  margin: auto;
+}
+.shadows-into-light-regular{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+}
+.but{
+  font-size: xx-large;
+  cursor: pointer;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  font-size: medium;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.but:hover .tooltiptext {
+  visibility: visible;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer .footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-content .links {
+  margin: 20px 0;
+}
+.footer .footer-content .links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer .footer-content .links a:hover {
+  text-decoration: underline;
+}
+.footer .footer-content .social-media {
+  margin: 20px 0;
+}
+.footer .footer-content .social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.footer .footer-content .social-media a:hover {
+  color: #007BFF;
+}
+.footer .footer-content .contact-info {
+  margin: 20px 0;
+}
+.footer .footer-content .contact-info p {
+  margin: 5px 0;
+}
+.footer .footer-content .contact-info a {
+  color: #007BFF;
+  text-decoration: none;
+}
+.footer .footer-content .contact-info a:hover {
+  text-decoration: underline;
+}
+.footer p.copy {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
